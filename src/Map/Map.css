@@ -1,0 +1,29 @@
+.country-details-wrapper {
+    border-top: 2px solid #e1a4b3;
+    border-bottom: 2px solid #20c997;
+    border-left: 2px solid #e71247;
+    border-right: 2px solid #b0f3e4;
+    position: absolute;
+    right: 0;
+    padding-inline: 20px;
+    margin-right: 20px;
+}
+
+.details-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+h3.heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leaflet-touch .leaflet-control-attribution,
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+    display: none !important;
+}
